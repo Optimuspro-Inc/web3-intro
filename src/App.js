@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Home from './pages/home/Home';
+
+
+
+
 
 function App() {
+
+
+  //const responsiveMobile = useMediaQuery('(max-width: 770px)');
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="appcontainer" >
+
+       <Header  />
+
+
+       <Routes>
+          <Route path="/" element={<Home />} />
+       </Routes>
+       
+
+       <Footer />
+
     </div>
   );
 }

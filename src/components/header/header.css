@@ -1,0 +1,58 @@
+
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+
+
+.linksContain {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.formsearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 36px;
+    border: 1px solid #3097FD;
+    border-radius: 5px;
+    padding: 3px 0 3px 12px;
+
+}
+
+.input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #E5E5E5;
+    width: 100%;
+}
+
+
+.loginsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13%;
+}
+
+
+.logo {
+    margin-right: 44px;
+}
+
+
+.signup {
+    background: #0080FF;
+    border-radius: 10px 0px;
+    padding: 8px;
+}

@@ -1,0 +1,92 @@
+.firstContain {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.leftContainer {
+    width: 531px;
+    padding-left: 114px;
+    padding-top: 75px;
+}
+
+
+.leftContainer h2 {
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    color: #393939;
+    margin-bottom: 0px;
+}
+
+
+
+.moreinfo {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #393939;
+    width: 479px;
+    padding-top: 23px;
+}
+
+
+.buttonhold {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    padding-top: 20px;
+}
+
+
+
+.start {
+    background: #FFFFFF;
+    border: 1px solid #3097FD;
+    border-radius: 15px 0px;
+    padding: 4px;
+    margin-right: 27px;
+    width: 203px;
+    color: #3097FD;
+}
+
+
+
+
+.videos {
+    padding: 4px;
+    margin-right: 27px;
+    width: 203px;
+    height: 34px;
+    background: #0080FF;
+    border-radius: 15px 0px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.rightContainer {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.illustration {
+    width: 42%;
+    height: auto;
+    margin-right: 52px;
+}
+
+
