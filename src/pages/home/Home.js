@@ -57,7 +57,7 @@ export default function Home() {
            </div>
 
 
-           <img src={ellipse} />
+           <img className='ellipse' src={ellipse} />
 
 
 

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@500&family=Nunito+Sans:wght@200&family=Poppins:wght@500&family=Roboto:wght@500&family=Sora:wght@500&family=Space+Grotesk:wght@500&display=swap');
+
+
 .firstContain {
     display: flex;
     justify-content: flex-start;
@@ -9,6 +13,9 @@
     width: 531px;
     padding-left: 114px;
     padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 
@@ -90,3 +97,10 @@
 }
 
 
+.ellipse {
+    position: absolute;
+    right: 0;
+    bottom: -360px;
+    width: 13%;
+    height: auto;
+}

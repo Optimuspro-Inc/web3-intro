@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Inter:wght@500&family=Nunito+Sans:wght@200&family=Poppins:wght@500&family=Roboto:wght@500&family=Sora:wght@500&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+
+
+.gettingstartedContainer {
+    background: #0080FF;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding-top: 34px;
+}
+
+.title {
+    display: contents;
+    color: #FFF;
+    line-height: 21.5px;
+}
+
+
+.title h1 {
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.startedBody {
+    display: flex;
+    margin-top: 40px;
+}
+
+.imagecontainer {
+    flex-grow: 0;
+    z-index: 9999;
+}
+
+
+.imagecontainer img {
+    width: 100%;
+    height: auto;
+}
+
+
+.rightside {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 66px;
+}
+
+
+.each-item {
+    display: flex;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.img-hold {
+    position: relative;
+    margin-right: 18px;
+    z-index: 99999;
+}
+
+
+.illustrate {
+    width: 100%;
+    height: auto;
+}
+
+
+.covercircle {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+
+.covercircletwo {
+    width: 78%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+
+.test-right {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    gap: 16px;
+}
+
+.heading {
+    color: #1289FF;
+    font-weight: 700;
+    font-family: 'Nunito Sans';
+}
+
+
+.text-main {
+    color: #393939;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.ellipsetwo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 19%;
+    height: auto;
+}
