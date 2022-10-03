@@ -7,6 +7,7 @@ import Courses from '../../components/homecompo/Courses';
 import News from '../../components/homecompo/News';
 import Team from '../../components/homecompo/Team';
 import Community from '../../components/homecompo/Community';
+import Sponsors from '../../components/homecompo/Sponsors';
 
 
 
@@ -71,6 +72,7 @@ export default function Home() {
         <News />
         <Team />
         <Community />
+        <Sponsors />
 
 
 

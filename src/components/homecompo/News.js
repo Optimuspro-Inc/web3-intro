@@ -3,7 +3,7 @@ import newsone from "../../img/newsone.png";
 import newstwo from "../../img/newstwo.png";
 import newsthree from "../../img/newsthree.png";
 import certificate from "../../img/certificate.png";
-
+import leftEllipse from "../../img/leftEllipse.png";
 
 
 export default function News() {
@@ -129,6 +129,7 @@ export default function News() {
 
            <div className='right-second'>
               <img src={certificate} alt='certificate' />
+              <img className='ellipsethree' src={leftEllipse} />
            </div>
 
         </div>
