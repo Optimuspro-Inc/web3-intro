@@ -4,6 +4,7 @@ import operate from "../../img/operate.png";
 import stars from "../../img/stars.png";
 import smartcontract from "../../img/smartcontract.png";
 import moralisAcademyGuidance from "../../img/moralisAcademyGuidance.png";
+import "./courses.css";
 
 
 
@@ -18,20 +19,20 @@ export default function Courses() {
       
 
         <div className='courseHeader'>
-            <h1>Explore our courses & programs</h1>
+            <h1 className='courseh1'>Explore our courses & programs</h1>
         </div>
 
         <div className='containCourseLinks'>
 
-              <div>All</div>
+              <div className='courseactive' >All</div>
 
-              <div>Financial</div>
+              <div className='courseinactive' >Financial</div>
 
-              <div>Programming</div>
+              <div className='courseinactive' >Programming</div>
 
-              <div>Digital Arts</div>
+              <div className='courseinactive' >Digital Arts</div>
 
-              <div>Online Marketing</div>
+              <div className='courseinactive' >Online Marketing</div>
 
         </div>
 
@@ -41,11 +42,11 @@ export default function Courses() {
 
 
 
-          <div className='slidercontentcontainer'>
+          <div className='slidercontentcontainerone'>
 
             <div className='img-title'>
-               <img src={Software} alt='unknown'   />
-               <h2>Web3 dApp Development</h2>
+               <img className='operateothers' src={Software} alt='unknown'   />
+               <div className='sliderheader' >Web3 dApp Development</div>
             </div>
 
             <div className='contents'>
@@ -54,8 +55,11 @@ export default function Courses() {
                 backend code running on a decentralized
                 peer-to-peer network.
             </div>
+    
+            <div className="sliderbuttoncontain">
+                <button className='sliderbutton'>Get Started</button>
+            </div>
 
-            <button>Get Started</button>
 
           </div>
 
@@ -65,8 +69,8 @@ export default function Courses() {
           <div className='slidercontentcontainer'>
 
               <div className='img-title'>
-                <img src={operate} alt='unknown'   />
-                <h2>Web3 dApp Development</h2>
+                <img className='operate' src={operate} alt='unknown'   />
+                <div className='sliderheader' >Web3 dApp Development</div>
               </div>
 
               <div className='contents'>
@@ -76,18 +80,20 @@ export default function Courses() {
                   peer-to-peer network.
               </div>
 
-              <button>Get Started</button>
+              <div className="sliderbuttoncontain">
+                <button className='sliderbutton'>Get Started</button>
+              </div>
 
           </div>
 
 {/* seperate */}
 
 
-          <div className='slidercontentcontainer'>
+          <div className='slidercontentcontainerone'>
 
                 <div className='img-title'>
-                  <img src={stars} alt='unknown'   />
-                  <h2>Web3 dApp Development</h2>
+                  <img className='operateothers' src={stars} alt='unknown'   />
+                  <div className='sliderheader' >Web3 dApp Development</div>
                 </div>
 
                 <div className='contents'>
@@ -97,7 +103,9 @@ export default function Courses() {
                     peer-to-peer network.
                 </div>
 
-                <button>Get Started</button>
+                <div className="sliderbuttoncontain">
+                   <button className='sliderbutton'>Get Started</button>
+                </div>
 
           </div>
 
@@ -105,11 +113,11 @@ export default function Courses() {
 
 {/* seperate */}
 
-          <div className='slidercontentcontainer'>
+          <div className='slidercontentcontainerone'>
 
               <div className='img-title'>
-                <img src={smartcontract} alt='unknown'   />
-                <h2>Web3 dApp Development</h2>
+                <img className='operateothers' src={smartcontract} alt='unknown'   />
+                <div className='sliderheader' >Web3 dApp Development</div>
               </div>
 
               <div className='contents'>
@@ -119,7 +127,9 @@ export default function Courses() {
                   peer-to-peer network.
               </div>
 
-              <button>Get Started</button>
+                  <div className="sliderbuttoncontain">
+                    <button className='sliderbutton'>Get Started</button>
+                 </div>
 
           </div>
 {/* Ended */}
@@ -145,7 +155,7 @@ export default function Courses() {
       <div className='text-courses'>
         <h1>Get Hands-On, Practical Guidance</h1>
 
-        <div>
+        <div className='courses-text-desc'>
            Quizzes and assignment
            Building along to weekly 
            unique workshops

@@ -1,5 +1,8 @@
 import React from 'react';
 import Newsetter from '../homecompo/Newsetter';
+import "./footer.css";
+
+
 
 export default function Footer() {
   return (

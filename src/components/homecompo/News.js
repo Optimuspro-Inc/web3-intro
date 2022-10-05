@@ -4,6 +4,7 @@ import newstwo from "../../img/newstwo.png";
 import newsthree from "../../img/newsthree.png";
 import certificate from "../../img/certificate.png";
 import leftEllipse from "../../img/leftEllipse.png";
+import "./news.css";
 
 
 export default function News() {
@@ -23,11 +24,11 @@ export default function News() {
              <div className='detailsContain'>
 
                <div className='detailsimgContain'>
-                  <img src={newsone} alt='desc' />
+                  <img className='newsimage' src={newsone} alt='desc' />
                </div>
 
                <div className='descriptiondetails'>
-                 <h3>Why the Web3.0 Matters and you should know about it</h3>
+                 <h3 className='newseachheader' >Why the Web3.0 Matters and you should know about it</h3>
 
                  <div className='textdetails'>
                     There’s plenty of buzz around the web
@@ -45,14 +46,14 @@ export default function News() {
 
               {/* seperate */}
 
-              <div className='detailsContain'>
+              <div className='detailsContaintwo'>
 
                   <div className='detailsimgContain'>
-                    <img src={newstwo} alt='desc' />
+                    <img className='newsimage' src={newstwo} alt='desc' />
                   </div>
 
                   <div className='descriptiondetails'>
-                    <h3>Why the Web3.0 Matters and you should know about it</h3>
+                    <h3 className='newseachheader' >Why the Web3.0 Matters and you should know about it</h3>
 
                     <div className='textdetails'>
                       There’s plenty of buzz around the web
@@ -73,11 +74,11 @@ export default function News() {
               <div className='detailsContain'>
 
                   <div className='detailsimgContain'>
-                    <img src={newsthree} alt='desc' />
+                    <img className='newsimage' src={newsthree} alt='desc' />
                   </div>
 
                   <div className='descriptiondetails'>
-                    <h3>Why the Web3.0 Matters and you should know about it</h3>
+                    <h3 className='newseachheader' >Why the Web3.0 Matters and you should know about it</h3>
 
                     <div className='textdetails'>
                       There’s plenty of buzz around the web
@@ -108,20 +109,26 @@ export default function News() {
          <div className='secondContainernews'>
            
            <div className='left-second'>
-              <h1>Become Blockchain Certified</h1>
+              <h1 className='newsheaderone' >Become <br /> Blockchain Certified</h1>
 
-              <div>
-               Optimus Pro Academy has been already 
+              <div className='optimus-text'>
+                Optimus Pro Academy has been already 
                 helped  countless people around the world.
               </div>
 
-              <div>
+              <div className='areyounext'>
                 ARE YOU NEXT?
               </div>
 
-              <button>
-                  Begin your career
-              </button>
+
+              <div className="newsbuttoncontainer">
+
+                  <button>
+                      Begin your career
+                  </button>
+
+              </div>
+
 
            </div>
 
@@ -129,7 +136,7 @@ export default function News() {
 
            <div className='right-second'>
               <img src={certificate} alt='certificate' />
-              <img className='ellipsethree' src={leftEllipse} />
+              <img className='ellipsenews' src={leftEllipse} />
            </div>
 
         </div>

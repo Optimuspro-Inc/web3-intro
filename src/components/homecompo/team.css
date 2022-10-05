@@ -1,0 +1,92 @@
+.teamContainer {
+    padding: 64px;
+    background: #E4F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.firstdiv {
+    text-align: center;
+    line-height: 10px;
+}
+
+
+.mini-header {
+    color: #393939;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.firstdiv h1 {
+    color: #0080FF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.seconddiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    margin-top: 56px;
+}
+
+
+.teamsectionContainer {
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px;
+}
+
+
+.img-header {
+    border-bottom: 1px solid #0080FF;
+    /* padding: 10px; */
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+
+.imgteamcontain img {
+    border-radius: 100%;
+}
+
+
+.team-name {
+    color: #0080FF;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+}
+
+
+
+
+.team-job {
+    color: #393939;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+.team-job-description {
+    color: #292929;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}

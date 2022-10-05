@@ -3,6 +3,7 @@ import teamone from "../../img/teamone.png";
 import teamtwo from "../../img/teamtwo.png";
 import teamthree from "../../img/teamthree.png";
 import teamfour from "../../img/teamfour.png";
+import "./team.css";
 
 
 export default function Team() {

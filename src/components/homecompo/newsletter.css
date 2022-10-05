@@ -1,0 +1,52 @@
+.newsletterContainer {
+    width: 51%;
+}
+
+
+.formvalscontain {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    /* height: 78px; */
+    justify-content: space-around;
+    padding: 15px;
+    gap: 23px;
+}
+
+
+
+.suscribe {
+    color: #0080FF;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.handcontain {
+    background: #C2E0FE;
+    border-radius: 5px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.handitself {
+    width: 73%;
+    height: auto;
+}
+
+
+.formsearchnewsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 36px;
+    border: 1px solid #3097FD;
+    border-radius: 5px;
+    padding: 3px 0 3px 12px;
+    width: 58%;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import hand from "../../img/hand.png";
 import SearchIcon from '@mui/icons-material/Search';
+import "./newsletter.css";
 
 
 export default function Newsetter() {
@@ -11,11 +12,11 @@ export default function Newsetter() {
         <div className='formvalscontain'>
 
             <div className="suscribe">
-                Get Newletter by
+                Get Newletter by<br />
                 subscribing now!
             </div>
 
-            <form className="formsearch">
+            <form className="formsearchnewsletter">
                 <input  className="input" placeholder="Email Address"  /> 
             </form>
 

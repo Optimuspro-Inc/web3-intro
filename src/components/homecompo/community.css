@@ -1,0 +1,114 @@
+
+.communityContainer {
+    padding: 50px 5px;
+}
+
+
+
+.headerforcommunity {
+    color: #393939;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.overallforthisguys {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+
+.middlearrange {
+    position: relative;
+}
+
+
+.containupleft {
+    position: absolute;
+    left: 59px;
+    top: 104px;
+    background-image: url(../../img/leftdisplay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 146px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+.containdownleft {
+    position: absolute;
+    left: 0;
+    bottom: 103px;
+    background-image: url(../../img/leftdisplay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 146px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.containupright {
+    position: absolute;
+    right: 59px;
+    top: 104px;
+    background-image: url(../../img/rightdisplay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 146px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.containdownright {
+    position: absolute;
+    bottom: 103px;
+    right: 0;
+    background-image: url(../../img/rightdisplay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 146px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}

@@ -1,0 +1,141 @@
+.firstContainernews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.firstContainernews h1 {
+    color: #1289FF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.newsdescription {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    gap: 25px;
+}
+
+
+
+.detailsContain {
+    border-radius: 5px;
+    padding: 13px;
+}
+
+
+
+.detailsContaintwo {
+    background: #EAF5FF;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+
+.newsimage {
+    width: 100%;
+    height: auto;
+}
+
+
+.newseachheader {
+    color: #393939;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.descriptiondetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.textdetails {
+    color: #777777;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.readmore {
+    color: #919090;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+.secondContainernews {
+    display: flex;
+    padding: 0px 50px 222px 50px;
+    position: relative;
+}
+
+
+.left-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 64px;
+}
+
+.optimus-text {
+    color: #1289FF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.newsheaderone {
+    color: #1289FF;
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.areyounext {
+    color: #1289FF;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+
+.newsbuttoncontainer button {
+    background: #0080FF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 143px;
+    height: 44px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.ellipsenews {
+    position: absolute;
+    left: -27px;
+    bottom: -112px;
+    width: 12%;
+    z-index: -1;
+}
